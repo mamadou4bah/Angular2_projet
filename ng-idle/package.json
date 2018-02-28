@@ -1,0 +1,73 @@
+{
+  "name": "ng2-idle-example",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackedByChinese/ng2-idle-example.git"
+  },
+  "keywords": [
+    "angular2",
+    "ng2-idle",
+    "example"
+  ],
+  "author": "Mike Grabski <me@mikegrabski.com> (http://mikegrabski.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackedByChinese/ng2-idle-example.git/issues"
+  },
+  "homepage": "https://github.com/HackedByChinese/ng2-idle-example.git#readme",
+  "angular-cli": {},
+  "scripts": {
+    "start": "http-server dist/",
+    "lint": "tslint \"src/**/*.ts\"",
+    "test": "ng test",
+    "pree2e": "webdriver-manager update",
+    "e2e": "protractor",
+    "preinstall": "npm install -g http-server",
+    "postinstall": "ng build --prod"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/compiler-cli": "^4.3.6",
+    "@angular/core": "~2.1.0",
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/material": "^2.0.0-alpha.9-3",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@ng-idle/core": "^2.0.0-beta.2",
+    "@ng-idle/keepalive": "^2.0.0-beta.2",
+    "angular2-moment": "^1.7.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.0-beta.12",
+    "ts-helpers": "^1.1.1",
+    "zone.js": "^0.6.23"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.2.30",
+    "@types/node": "^6.0.42",
+    "angular-cli": "1.0.0-beta.19-3",
+    "codelyzer": "1.0.0-beta.1",
+    "cz-conventional-changelog": "^1.2.0",
+    "jasmine-core": "2.4.1",
+    "jasmine-spec-reporter": "2.5.0",
+    "karma": "1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-remap-istanbul": "^0.2.1",
+    "protractor": "4.0.9",
+    "ts-node": "1.2.1",
+    "tslint": "3.13.0",
+    "typescript": "~2.0.3",
+    "webdriver-manager": "10.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
