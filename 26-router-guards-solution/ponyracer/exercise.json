@@ -1,0 +1,1 @@
+{"pack":"25","id":26,"title":"Protected routes with guards","specs":[{"name":"src/app/logged-in.guard.spec.ts","hash":"12acb6f9532af72f4b3767574ecb243c49edb90b"},{"name":"src/app/user.service.spec.ts","hash":"74d90b8f3b143cab7cfd9b1e702b56b4469b4134"}]}
